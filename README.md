@@ -1,8 +1,10 @@
-<h1>O QUE É</h1>
+<h1>MACRO DE IMPORTAÇÃO E AGREGAÇÃO DE DADOS PARA UMA MESMA PLANILHA TRABALHADA COMO CÓPIA POR VARIAS PESSOAS</h1>
+
+<h2>O QUE É</h2>
 <p>Esta macro foi desenvolvida levando em conta atender a necessidade de uma equipe de vendas que ao trabalharem cada um com uma cópia de uma planilha de vendas com diversas informações de clientes, pudessem unir todas as informações do que cada um prospectou, vendeu ou tratou com seus respectivos clientes no último dia da semana, ou quando assim o desejassem. Desta forma, todos teriam uma nova cópia com informações atualizadas no começo de cada semana, assim com o responsável por esta equipe de vendas.</p>
 <p>Durante o desenvolvimento desta macro não levou-se em conta a melhor fluidez possível e a mínima interação do usuário, por isso muitos dados foram adicionados de forma estática no código, como por exemplo o campo de pesquisa para dados conflitantes, nome da planilha a ser salva após a importação e incorporação dos dados.</p>
 
-<h1>COMO FUNCIONA</h1>
+<h2>COMO FUNCIONA</h2>
 
 <p>Após o usuário clicar em um botão que foi desenvolvido e deixado em uma das tabelas, a macro de nome “main” rodará. Uma janela do explorer se abrirá e o usuário deverá selecionar quantas planilhas deseja fazer a importação. Obs. Todas as planilhas que o usuário fizer a importação deverá ter sido renomeada com o nome de cada vendedor.</p>
 <p>Para a primeira planilha importada, não importa qual seja, a macro copiará integralmente todas as informações para a tabela “base funil” (esta foi também adicionada ao código de forma estática, visto que para este trabalho, apenas esta planilha era importante).</p>
