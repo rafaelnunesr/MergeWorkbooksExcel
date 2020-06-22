@@ -17,7 +17,7 @@ End Function
 Function SanitizeWorksheets()
 
     Dim iRow As Long
-    Dim rowIndex, maxEmptyCell As Integer
+    Dim rowIndex, maxEmptyCell As Long
     Dim row As String
     
     rowIndex = 0
