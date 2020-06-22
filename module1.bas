@@ -1,5 +1,5 @@
 Public LastColumnToMerge As String
-Public LastRowToMerge As Integer
+Public LastRowToMerge As Long
 Public JumpEmptyRow As Integer
 Public NameSheetImported As String
 Public MergingDestination As String
@@ -21,7 +21,7 @@ Function SanitizeWorksheets()
     Dim row As String
     
     rowIndex = 0
-    maxEmptyCell = 500
+    maxEmptyCell = 1000
     
     Sheet = Worksheets(NameSheetImported).Range(strRangeToCheck)
     
@@ -223,7 +223,7 @@ End Function
 Sub Main()
 
     LastColumnToMerge = "I"
-    LastRowToMerge = 5000
+    LastRowToMerge = 100000
     JumpEmptyRow = 50
     TotalSheetsImported = 0
     Flag = False
