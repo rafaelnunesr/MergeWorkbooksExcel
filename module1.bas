@@ -237,7 +237,7 @@ Sub Main()
     If Flag = False Then
     
         SaveNewWorkbook
-        MsgBox "As planilhas selecionadas foram importadas e fundidas com sucesso! A nova planilha está salva na mesma pasta desta aqui. :)", vbOKOnly + vbInformation
+MsgBox "As planilhas selecionadas foram importadas e agregadas com sucesso! A nova planilha está salva na mesma pasta desta aqui. :)", vbOKOnly + vbInformation
     
     Else
         MsgBox "Infelizmente não foi possível importar as planilhas neste momento. Por favor, verifique se você selecionou alguma planilha ou se não existem dados conflitantes no campo 'VENDEDOR'."
